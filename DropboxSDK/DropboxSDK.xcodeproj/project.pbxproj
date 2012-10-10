@@ -372,6 +372,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C78B76221625FC79009B5431 /* MPOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				D387583C14135C3E0013E17C /* NSString+URLEscapingAdditions.h */,
+				D387583D14135C3E0013E17C /* NSURL+MPURLParameterAdditions.h */,
+				D387583E14135C3E0013E17C /* NSURLResponse+Encoding.h */,
+				D387582914135C3E0013E17C /* MPDebug.h */,
+				D387582A14135C3E0013E17C /* MPOAuth.h */,
+				D387582B14135C3E0013E17C /* MPOAuthAPI.h */,
+				D387582C14135C3E0013E17C /* MPOAuthAPIRequestLoader.h */,
+				D387582D14135C3E0013E17C /* MPOAuthAuthenticationMethod.h */,
+				D387582E14135C3E0013E17C /* MPOAuthAuthenticationMethodOAuth.h */,
+				D387582F14135C3E0013E17C /* MPOAuthConnection.h */,
+				D387583014135C3E0013E17C /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
+				D387583114135C3E0013E17C /* MPOAuthCredentialConcreteStore.h */,
+				D387583214135C3E0013E17C /* MPOAuthCredentialStore.h */,
+				D387583314135C3E0013E17C /* MPOAuthParameterFactory.h */,
+				D387583414135C3E0013E17C /* MPOAuthSignatureParameter.h */,
+				D387583514135C3E0013E17C /* MPOAuthURLRequest.h */,
+				D387583614135C3E0013E17C /* MPOAuthURLResponse.h */,
+				D387583714135C3E0013E17C /* MPURLRequestParameter.h */,
+			);
+			name = MPOAuth;
+			sourceTree = "<group>";
+		};
+		C78B76231625FCA4009B5431 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D387582814135C3E0013E17C /* JSON.h */,
+				D387583914135C3E0013E17C /* NSObject+DBJSON.h */,
+				D387583B14135C3E0013E17C /* NSString+DBJSON.h */,
+				D387583F14135C3E0013E17C /* DBJSON.h */,
+				D387584014135C3E0013E17C /* DBJsonBase.h */,
+				D387584114135C3E0013E17C /* DBJsonParser.h */,
+				D387584214135C3E0013E17C /* DBJsonWriter.h */,
+				D3ED1B2F155498F50023FE9F /* DBConnectController.h */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
 		D36931CF15088350003FBA23 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,34 +473,10 @@
 				D3CC8969150834470079CBE8 /* DBSession+iOS.h */,
 				D387582714135C3E0013E17C /* DropboxSDK.h */,
 				D36932281508857E003FBA23 /* DropboxOSX.h */,
-				D387582814135C3E0013E17C /* JSON.h */,
-				D387582914135C3E0013E17C /* MPDebug.h */,
-				D387582A14135C3E0013E17C /* MPOAuth.h */,
-				D387582B14135C3E0013E17C /* MPOAuthAPI.h */,
-				D387582C14135C3E0013E17C /* MPOAuthAPIRequestLoader.h */,
-				D387582D14135C3E0013E17C /* MPOAuthAuthenticationMethod.h */,
-				D387582E14135C3E0013E17C /* MPOAuthAuthenticationMethodOAuth.h */,
-				D387582F14135C3E0013E17C /* MPOAuthConnection.h */,
-				D387583014135C3E0013E17C /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
-				D387583114135C3E0013E17C /* MPOAuthCredentialConcreteStore.h */,
-				D387583214135C3E0013E17C /* MPOAuthCredentialStore.h */,
-				D387583314135C3E0013E17C /* MPOAuthParameterFactory.h */,
-				D387583414135C3E0013E17C /* MPOAuthSignatureParameter.h */,
-				D387583514135C3E0013E17C /* MPOAuthURLRequest.h */,
-				D387583614135C3E0013E17C /* MPOAuthURLResponse.h */,
-				D387583714135C3E0013E17C /* MPURLRequestParameter.h */,
 				D387583814135C3E0013E17C /* NSDictionary+Dropbox.h */,
-				D387583914135C3E0013E17C /* NSObject+DBJSON.h */,
 				D387583A14135C3E0013E17C /* NSString+Dropbox.h */,
-				D387583B14135C3E0013E17C /* NSString+DBJSON.h */,
-				D387583C14135C3E0013E17C /* NSString+URLEscapingAdditions.h */,
-				D387583D14135C3E0013E17C /* NSURL+MPURLParameterAdditions.h */,
-				D387583E14135C3E0013E17C /* NSURLResponse+Encoding.h */,
-				D387583F14135C3E0013E17C /* DBJSON.h */,
-				D387584014135C3E0013E17C /* DBJsonBase.h */,
-				D387584114135C3E0013E17C /* DBJsonParser.h */,
-				D387584214135C3E0013E17C /* DBJsonWriter.h */,
-				D3ED1B2F155498F50023FE9F /* DBConnectController.h */,
+				C78B76221625FC79009B5431 /* MPOAuth */,
+				C78B76231625FCA4009B5431 /* JSON */,
 			);
 			path = DropboxSDK;
 			sourceTree = "<group>";
